@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	color: #464646 !important;
+}
+
+.texto-copy{
+	font-size: 16px !important;
+	font-weight: 500;
+}
+
+.texto-azul{
+	color:#3da8f5;
+}
+
+.bg-azul{
+	background:#3da8f5 !important;
+}
+
+.bg-cinza{
+	background: #f3f3f3 !important;
+}
+
+h1{
+	color:#3da8f5;
+	font-weight: 800 !important;
+}
+
+strong{
+	font-weight: 800 !important;
+}
+
+a{
+	text-decoration: none !important;
+
+}
+
+.full{width: 100% !important; transition: 0.5s !important;}
+
+.full:hover{background: #196fad !important; transition: 0.5s !important;}
+
+/*@MEDIAS RESPONSIVO*/
+
+@media (max-width: 768px) {
+
+	.qresponsivo{
+		width: 100% !important;
+	}
+
+	.logo{text-align: center;}
+
+	h1{text-align: center;}
+	p{text-align: center;}
+
+	.listas{
+		text-align: center;
+	}
+
+	.ebook{margin-top: 15px; width: 90%;}
+
+	.formulario-responsivo{flex:auto !important;}
+}

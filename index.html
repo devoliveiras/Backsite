@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!--IMPORTANDO GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+<!--BOOTSTRAP-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<!--WEBSERVICE EXIBIR ENDEREÇO PELO CEP-->
+<script type="text/javascript" src="js/viacep.js"></script>
+
+
+<title>EX 1 LANDING PAGE - GUILHERME OLIVEIRA</title>
+</head>
+<body>
+
+<!-- NAV COPYRIGHT LOGO -->
+<nav class="navbar-light shadow-sm p-3 bg-white rounded ">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1"></div>
+				<div class="col-10 logo">
+					<a class="navbar-brand texto-copy" href="https://www.linkedin.com/notifications/" target="_blank">
+						GUILHERME OLIVEIRA | <strong class="texto-azul">FULL STACK</strong>
+					</a>
+				</div>
+			<div class="col-sm-1"></div>	
+		</div>
+	</div>
+</nav>
+
+<!--CHAMADA EBOOK-->
+<div class="bg-cinza p-5 pt-5 pb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1"></div>
+				<div class="col-md-6 qresponsivo">
+					<h1 class="col-9 qresponsivo">
+					RECEBA AGORA ESSE
+					E-BOOK EXCLUSIVO
+					GRATUÍTO!
+					</h1>
+
+					<p class="pt-3 col-7 qresponsivo" style="font-weight: 600;">Este e-book possui o passo a passo para a criação
+					das contas nas principais redes sociais do momento.</p>
+
+					<div class="listas pt-2">
+						<strong class="texto-azul">+</strong> Iniciando nas Redes Sociais <br>
+						<strong class="texto-azul">+</strong> Dicas valiosas na criação das contas <br>
+						<strong class="texto-azul">+</strong> Bônus <br>
+						<strong class="texto-azul">+</strong> Conhecimento <br>
+						<strong class="texto-azul">+</strong> Interativo <br>
+						<strong class="texto-azul">+</strong> Dinâmico <br>
+					</div>
+				</div>
+				<div class="col-lg-4 p-2">
+					<img src="img/ipad.png" class="img-fluid ebook mx-auto d-block"alt="E-BOOK Setup Social">
+				</div>
+			<div class="col-sm-1"></div>
+		</div>
+	</div>
+</div>
+
+
+<!--FORMULÁRIO-->
+<div class="container bg-white p-5">
+
+	<div class="row">
+		<div class="col-sm-1"></div>
+			<div class="col-10 pt-4 qresponsivo">
+
+				<h1 class="text-center">SETUP SOCIAL</h1>
+				<p class="text-center">Faça seu download grátis!</p>
+
+				<form method="get" action="." class="pt-4">
+				  <div class="row">
+				    <div class="formulario-responsivo col mb-4">
+				      <input type="text" class="form-control" placeholder="Nome">
+				    </div>
+				    <div class="col mb-4">
+				      <input type="text" class="form-control" placeholder="Idade">
+				    </div>
+				  </div>
+				  <div class="row">
+				    <div class="formulario-responsivo col mb-4">
+				      <input type="text" class="form-control" placeholder="Telefone">
+				    </div>
+				    <div class="col mb-4">
+				      <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               				 class="form-control" placeholder="CEP" onblur="pesquisacep(this.value);">
+				    </div>
+
+				  </div>
+
+				  <hr class="mb-5">
+
+				  <div class="row">
+				    <div class="formulario-responsivo col mb-4">
+				      <input name="rua" id="rua" type="text" class="form-control" placeholder="Rua">
+				    </div>
+				    <div class="col mb-4">
+				      <input name="bairro" id="bairro" type="text" class="form-control" placeholder="Bairro">
+				    </div>
+				  </div>
+				  <div class="row">
+				    <div class="formulario-responsivo col mb-4">
+				      <input name="cidade" id="cidade" type="text" class="form-control" placeholder="Cidade">
+				    </div>
+				    <div class="col mb-4">
+				      <input name="uf" id="uf" type="text" class="form-control" placeholder="Estado">
+				    </div>
+				    <div class="col mb-4">
+				      <input name="ibge" id="ibge" type="text" class="form-control" placeholder="IBGE">
+				    </div>
+				  </div>
+
+				  <button type="submit" class="btn bg-azul text-white mb-2 p-2 full">ENVIAR DADOS</button>
+
+				</form>
+			</div>		
+		<div class="col-sm-1"></div>	
+	</div>
+</div>
+
+	<p class="text-center mt-4">&copy 2021 - Guilherme Oliveira | <a href="https://www.backsite.com.br" class="badge badge-light bg-azul" target="_blank">BackSite.com.br</a></p>
+
+</body>
+</html>
